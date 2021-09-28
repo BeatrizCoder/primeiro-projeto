@@ -1,0 +1,20 @@
+npm run start: dev
+
+npm i prisma -D (para instalar usei o menos D)
+
+npx prisma init( gerar pasta prisma e arquivo env)
+
+doc: https://pris.ly/d/getting-started
+
+npx prisma db push (upload do banco de dados, "a mesa ideia" do push do git, porém push ara o bancpo de dados )
+
+npx prisma generate (conectar o banco de dados e instalar o prisma client )
+
+npx prisma db pull (puxar infos direto do banco)
+
+nest g module prisma( vai criar o arquivo prisma.module.ts)
+
+nest g service prisma ( vai criar o arquivo primsa.service.ts)
+
+ nest g module = nome do module - para criar arquivo de model
+
